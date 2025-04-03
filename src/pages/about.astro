@@ -1,8 +1,10 @@
 ---
+import { Image } from "astro:assets";
 import experiences from "../collections/experiences.json";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import Illustration from "../assets/images/about.jpg"
 ---
 
 <Layout title="About Me" description="Developer based in Vienna, Austria - with multiple years of experience and a passion for frontend." >
@@ -12,7 +14,7 @@ import Layout from "../layouts/main.astro";
       description="Hello 👋 I'm a frontend developer from Vienna, Austria. I love design, fixing headache inducing bugs and learning new technologies."
     />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+    <Image alt="Illustration of coding" src={Illustration} class="relative z-30 w-full my-10 rounded-xl" />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Bio</h2>
     <p

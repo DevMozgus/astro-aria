@@ -4,7 +4,7 @@
 		"role": "Front-end Developer",
 		"company": "Sushi Dev Gmbh",
 		"description": "Working on multiple projects with various technologies while expanding my DevOps knowledge.",
-		"logo": "/assets/images/experiences/sushidev.png"
+		"logo": "/src/assets/images/experiences/sushidev.png"
 	},
 	{
 		"dates": "2022 · 2023",
@@ -18,6 +18,6 @@
 		"role": "JR Developer",
 		"company": "Unsourced Digital",
 		"description": "My first big jump into the Reacts.js and Next.js world where I found my passion for front-end development.",
-		"logo": "/assets/images/experiences/unsourceddigital.jpg"
+		"logo": "/src/assets/images/experiences/unsourceddigital.jpg"
 	}
 ]

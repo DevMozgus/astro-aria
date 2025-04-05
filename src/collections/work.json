@@ -1,11 +1,5 @@
 [
 	{
-		"name": "Woman.at",
-		"description": "Frontend work done with Next.js.",
-		"image": "/src/assets/images/projects/woman.png",
-		"url": "https://woman.at"
-	},
-	{
 		"name": "Franz Grabmayr",
 		"description": "Frontend with astro and backend with statamic.",
 		"image": "/src/assets/images/projects/grabmayr.png",
@@ -18,13 +12,25 @@
 		"url": "https://trend.at"
 	},
 	{
+		"name": "Woman.at",
+		"description": "Frontend work done with Next.js.",
+		"image": "/src/assets/images/projects/woman.png",
+		"url": "https://woman.at"
+	},
+	{
+		"name": "Autorevue.at",
+		"description": "Frontend work done with Next.js.",
+		"image": "/src/assets/images/projects/autorevue.png",
+		"url": "https://autorevue.at"
+	},
+	{
 		"name": "Dr. Anna Warlamides",
 		"description": "Frontend work done with Next.js.",
 		"image": "/src/assets/images/projects/warlamides.png",
 		"url": "https://osteopathie-warlamides.com"
 	},
 	{
-		"name": "Tv-Media.at",
+		"name": "TV-Media.at",
 		"description": "Frontend work done with Next.js.",
 		"image": "/src/assets/images/projects/tvmedia.png",
 		"url": "https://tv-media.at"

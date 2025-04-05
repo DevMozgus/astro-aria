@@ -22,7 +22,7 @@ if (!images[image]) throw new Error(`"${image}" does not exist in glob: "src/ass
     class="relative z-30 block duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1"
   >
     <span class="block w-full">
-      <Image alt={`Image of ${name}`} src={images[image]()} class="w-full h-auto object-cover rounded-lg aspect-[16/9]" />
+      <Image sizes="(min-width: 1980px) 400px, 80vw" width={500} height={281} alt={`Image of ${name}`} src={images[image]()} class="w-full h-auto object-cover rounded-lg aspect-[16/9]" />
     </span>
     <span class="block w-full px-1 mt-5 mb-1 sm:mt-3">
       <span
